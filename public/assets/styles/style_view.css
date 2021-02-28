@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fce2b1;
+    font-family: "JetBrains Mono", Montserrat, sans-serif;
+}
+
+header h1 {
+    background-color: #4a3523;
+    margin-top: 0;
+    color: #fce2b1;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main {
+    background-color: #fce2b1;
+}
+
+main .button{
+    display: block;
+    margin: 40px 40%;
+    background-color: #4a3523;
+    text-align: center;
+    padding: 10px;
+    color: #fce2b1;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+main .button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+table {
+    padding: 0 10px;
+}
+
+th {
+    background-color: #4a3523;
+    color: #fce2b1;
+    padding: 5px;
+}
+
+th, td {
+    border: 1px solid #4a3523;
+    text-align: center;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.id {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0db;
+}
+
+.action a{
+    text-decoration: none;
+    text-align: center;
+    color: #4a3523;
+    font-weight: bold;
+}
+
+.action a:hover {
+    color: azure;
+}
+
+.edit {
+    background-color: lightcyan;
+}
+
+.edit:hover {
+    background-color: darkcyan;
+}
+
+.delete {
+    background-color: lightcoral;
+}
+
+.delete:hover {
+    background-color: darkred;
+}
+
+footer {
+    background-color: #4a3523;
+    color: #fce2b1;
+    padding: 20px;
+    text-align: center;
+}

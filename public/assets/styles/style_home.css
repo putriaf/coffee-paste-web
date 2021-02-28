@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styling */
+
+* {
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", Montserrat, sans-serif;
+}
+
+body {
+    background-color: #fce2b1;
+    font-family: "JetBrains Mono", Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background-color: #fce2b1;
+    border-bottom: 2px solid #fce2b1;
+}
+
+nav {
+    background-color: #fce2b1;
+    float: right;
+}
+
+nav ul {
+    padding: 30px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin: auto 20px auto auto;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #fce2b1;
+}
+
+nav a {
+    color: #4a3523;
+    padding: 10px;
+}
+
+nav a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #4a3523;
+}
+
+.brownie {
+    background-color: #4a3523;
+    color: #fce2b1;
+}
+
+.brownie:hover {
+    color: whitesmoke;
+}
+
+.jumbotron {
+    width: 100%;
+    margin: 55px;
+    padding-bottom: 50px;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+
+.about {
+    width: 100%;
+    background-color: #fce2b1;
+}
+
+.about h2 {
+    background-color: #4a3523;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fce2b1;
+    font-size: 25px;
+}
+
+.about figure {
+    width: 15%;
+    display: inline;
+    float: left;
+    margin: 5%;
+    padding: 7px;
+}
+
+.about figure:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.about figure img {
+    display: block;
+    margin: auto;
+}
+
+.about figcaption {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about figcaption a {
+    color: #4a3523;
+    font-weight: bold;
+}
+
+.about figcaption a:hover {
+    background-color: #4a3523;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+.menu {
+    width: 90%;
+    margin: 35px;
+}
+
+.text {
+    width: 100%;
+    float: left;
+    height: 300px;
+}
+
+.text h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.browse {
+    color: #fce2b1;
+    padding: 20px;
+    background-color: #4a3523;
+}
+
+/* 
+.photo {
+    width: 50%;
+    float: right
+}
+
+.item {
+    width: 100%;
+    padding: 10px;
+}
+
+.item figure {
+    width: 20%;
+    background-color:#fce2b1;
+}
+
+.item p {
+    width: 50%;
+    float: right;
+    background-color: antiquewhite;
+} */
+
+marquee {
+	width 				: 100%;
+	height 				: 40px;
+    padding-top 		: 12px;
+    padding-bottom      : 10px;
+	margin-top          : 20px;
+	margin-bottom		: 10px;
+	background-color 	: #4a3523;
+	color 				: #fce2b1;
+	position 			: relative;
+}
+
+footer {
+    width: 100%;
+    background-color: #4a3523;
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #fce2b1;
+    overflow: auto;
+    float: none;
+}
+
+/* Jika ukuran layar 680px atau kurang dari itu */

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+* { 
+	margin: 0;
+	font-family: "JetBrains Mono", Montserrat, sans-serif;
+}
+body{
+    background-color: #fce2b1;
+    text-align      : center;
+    font-family     : serif;
+    font-size       : 20px;
+	color           : #fce2b1;
+	overflow-x: hidden;
+}
+#layout{
+    background  : #fce2b1;
+    width       : 100%;
+    margin      : auto;
+    text-align  : center;
+    padding     :5px;
+}
+header {
+    width: 100%;
+    background-color: #fce2b1;
+	border-bottom: 2px solid #fce2b1;
+	overflow: auto;
+}
+.hero-image img{
+    width: 100%;
+}
+nav {
+	width : 100%;
+    background-color: #fce2b1;
+	float: right;
+}
+
+nav ul {
+    padding: 30px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin: auto 20px auto auto;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #fce2b1;
+}
+
+nav a {
+    color: #4a3523;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.brownie {
+    background-color: #4a3523;
+    color: #fce2b1;
+}
+
+.brownie:hover {
+    color: whitesmoke;
+}
+
+.jumbotron {
+    width: 100%;
+    margin: 55px;
+    padding-bottom: 50px;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+#runningtext {
+	width 				: 100%;
+	height 				: 28px;
+    padding-top 		: 12px;
+    padding-bottom      : 2px;
+	margin-top          : 20px;
+	background-color 	: #4a3523;
+	color 				: #fce2b1;
+	position 			: relative;
+	font-size			: 15px;
+	
+}
+#footer {
+    width: 100%;
+	background-color: #4a3523;
+	margin-top: 10px;
+    padding: 18px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #fce2b1;
+    overflow: auto;
+	float: none;
+	margin-top: 20px;
+}
+.about {
+	width: 100%;
+	/* height: 250px; */
+	display: inline;
+	/* float: right; */
+	/*ALIFA INI TDNYA ADA PADDING RIGHT TP LUPA BERAPA KEAPUSS*/
+	overflow: auto;
+	box-sizing: border-box;
+}
+.satu{
+	margin: 50px;
+	overflow: auto;
+}
+.isiabout h2 {
+	width: 100%;
+	background-color: #4a3523;
+	height: 40px;
+	margin-top: 10px;
+	color: #fce2b1;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 4px;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+	overflow: auto;
+	object-fit: cover;
+}
+.isiabout img {
+	float 			: center;
+	height 			: 200px;
+	width 			: 200px;
+	/* margin-right 	: 175px; */
+	margin-top 		: 2px;
+	padding 		: 5px;
+	border 			: 3px solid #fce2b1;
+}
+.table h2 {
+	width: 100%;
+	background-color: #4a3523;
+	height: 40px;
+    color: #fce2b1;
+    /* margin-top: 270px; */
+	padding-top: 15px;
+	padding-bottom: 4px;
+	font-size: 25px;
+    font-weight: bold;
+	text-align: center;
+}
+.table h3 {
+	width: 100%;
+	background-color: #4a3523;
+	height: 40px;
+    color: #fce2b1;
+    margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 4px;
+	font-size: 25px;
+    font-weight: bold;
+	text-align: center;
+}
+.table p{
+	width: 100%;
+    color: #4a3523;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.isiabout h3 {
+	margin-bottom: 30px;
+}
+
+.isiabout p {
+	margin-bottom: 50px;
+}
